@@ -1,0 +1,575 @@
+@media screen and (min-width : 1025px) {
+.bgimg {
+	background-color:#000000;
+	height:2050px;
+	position:static;	
+	}
+	
+.bgimg-1, .bgimg-2 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y:50px;
+  min-height: 500px;
+}
+.bgimg-1 {
+	min-height:650px !important;
+	background-image: url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/ACFEK_main_04.jpg');
+	}
+
+.bgimg-2 {
+	min-height:1400px !important;
+	background-image: url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/ACFEK_main_01.jpg');
+	height:1400px !important;
+	}
+
+.headercaption {
+  position: relative;
+  left: 0;
+  top:-33%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  background-color:rgba(0, 0, 0, 0);
+  opacity:0;
+  z-index:4;
+  font-family:'alternate-gothic-no-1-d','arial narrow','arial',sans-serif;
+  color:#FFFFFF;
+}
+
+.headercaption span {
+  font-size:8em;
+  font-family:'alternate-gothic-no-1-d','arial narrow','arial',sans-serif;
+  color:#FFFFFF;
+}
+
+.acfek-wide {
+  background-color:#0098d6;
+  padding-top:5%;
+  padding-bottom:5%;
+  height:400px;
+  position:static;
+  display:flex;
+  z-index:5;
+}
+
+.acfek-wide-container {
+	width:100%;
+	vertical-align:middle;
+	display:flex;
+}
+
+.acfek-lockup {
+  background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/ACFEK-lockup-white.png');
+  float:left;
+  display:inline-block;
+  width:400px;
+  margin-left:15%;
+  padding-right:20px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:100%;
+  vertical-align:middle;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.acfek-content {
+  width:50%;
+  padding-left:20px;
+  padding-top:20px;
+  color:#FFFFFF;
+  font-size:18px;
+  line-height:22px;
+  text-align:left;
+  display:inline-block;
+  float:left;
+  margin-right:15%;
+  vertical-align:middle;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+
+.acfek-content span {
+	font-weight:700;
+	color:#FFFFFF;
+	font-size:1.3em;
+	line-height:1.3em;
+}
+
+.pillar {
+  width:100%;
+  display:inline-block;
+  background-color:#000000;
+  height:1500px;
+  position:static;
+  z-index:0;
+}
+
+.pillarbg {
+  background-size:cover;
+  background-repeat:no-repeat;
+  display:inline-block;
+  width:100%;
+  position:static;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y:90px;
+  height:100%;
+  min-height:800px;
+  z-index:0;
+  margin:-2px;
+}
+
+.pillarimg {
+  float:left;
+  display:inline-block;
+  width:20%;
+  max-width:200px;
+  margin-left:15% !important;
+  margin-right:50px;
+  background-size:contain;
+  background-repeat:no-repeat;
+  height:50%;
+  vertical-align:middle;
+  z-index:1;
+  top:-60%;
+  position:relative;
+}
+
+#pillarimg-1 {background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/access-safety-400.png');}
+#pillarimg-2 {background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/char-leader-400.png');}
+#pillarimg-3 {background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/academic-career-400.png');}
+
+.pillarheadline {
+  font-family:'alternate-gothic-no-1-d',sans-serif;
+  font-size:96px;
+  font-weight:700;
+  width:50%;
+  float:left;
+  text-align:left;
+  max-width:800px;
+  padding-top:60px;
+  color:#0098d6;
+  vertical-align:middle;
+  z-index:1;
+  top:-60%;
+  position:relative;
+  margin-right:15%;
+  line-height:76px;
+}
+
+.pillarcontent {
+  font-family:arial,helvetica,sans-serif;
+  font-size:19px;
+  font-weight:300;
+  width:50%;
+  float:left;
+  text-align:left;
+  max-width:800px;
+  padding:0;
+  color:#FFFFFF;
+  vertical-align:middle;
+  z-index:1;
+  top:-60%;
+  position:relative;
+  margin-right:15%;
+}
+
+.pillarcontent p {
+  font-family:arial,helvetica,sans-serif !important;
+  font-size:19px !important;
+  font-weight:300 !important;
+  color:#FFFFFF !important;
+}
+
+.acfek-wide2 {
+  background-color:#0098d6;
+  height:300px;
+  padding-top:5%;
+  padding-bottom:5%;
+  position:static;
+  display:flex;
+  z-index:5;
+}
+
+.acfek-cta {
+  font-family:'alternate-gothic-no-1-d',sans-serif;
+  font-size:60px;
+  font-weight:500;
+  color:#FFFFFF;
+  text-align:center;
+  width:80%;
+  line-height:80px;
+  margin:auto;
+}
+
+.skyline {
+  background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/skyline-2500.png');
+  background-size:cover;
+  width:100%;
+  height:260px;
+  background-repeat:no-repeat;
+  background-position-y:bottom;
+}
+.gform_wrapper .gform_footer input[type=submit] {
+  width:25%;
+  height:35px;
+}
+.clicktodonate {
+  background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/click-to-donate-01.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+  width:20%;
+  height:20%;
+  float:left;
+  bottom:12%;
+  left:10%;
+  display:inline-block;
+  position:fixed;
+  max-width:348px;
+  max-height:111px;
+  z-index:1;
+}
+
+.learnmore {
+  background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/click-to-donate-02.png');
+  background-size:contain;
+  background-repeat:no-repeat;
+  width:30%;
+  height:30%;
+  float:left;
+  bottom:.5%;
+  left:15%;
+  display:inline-block;
+  position:fixed;
+  z-index:1;
+  max-width:607px;
+  max-height:78px;
+}
+
+.donatepennant {
+  float:left;
+  width:70%;
+  height:auto;
+  position:fixed;
+  bottom:5%;
+  left:0;
+  z-index:1;
+  max-width:250px;
+}
+
+.donatepennant video {
+  width:100%;
+  height:auto;
+  float:left;
+}
+
+/* Disable IDs for mobile bgimg section */
+	#bgimg-mob, #bgimg-1-mob, #bgimg-2-mob, #headercaption-mob {display: none;}	
+	}
+	
+@media screen and (max-width : 1440px) {
+.clicktodonate {
+  bottom:11%;
+}
+.learnmore {
+  bottom:-2%;
+}
+}
+
+@media screen and (max-width : 1250px) {
+.pillarimg {
+  width:15%;
+  margin-left:15%;
+}
+.pillarcontent, .pillarheadline {
+  width:50%;
+  margin-right:15%;
+}
+.acfek-lockup {
+  margin-left:10%;
+}
+.acfek-content {
+  font-size:16px;
+  margin-right:10%;
+  padding-top:16px;
+  line-height:20px;
+}
+.donatepennant video {
+  width:90%;
+}
+	
+/* START MOBILE STYLING */
+@media screen and (max-width : 1024px) {
+
+.main.main {height:100%;}
+.wrap {margin-top:0px !important;}
+footer {z-index:50;}
+
+/* Completely disable anchor link pennant and instructions */
+.donatepennant, .clicktodonate, .learnmore {display: none;}
+
+/* Disable IDs for full-screen bgimg section */
+	#bgimg-full, #bgimg-1-full, #bgimg-2-full, #headercaption-full {display: none;}
+	
+.bgimg {
+  background:#000000;
+  position: relative;
+  background-position-y:0;
+  z-index:0;
+  width:100%;
+  height:200%;
+}
+.bgimg-1 {
+  position: absolute;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat:no-repeat;
+  background-clip:initial;
+  background-position-y:50px;
+  background-size:100%;
+  width:100%;
+  z-index:2;
+  top:40px;
+  left:0;
+  padding-top:75%;
+  display:inline-block;
+  min-height:initial !important;
+  background-image: url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/ACFEK_main_04.jpg');
+}
+.bgimg-2 {
+  position: relative;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-clip:initial;
+  background-position-y:50px;
+  background-size:100%;
+  width: 100%;
+  height:0;
+  z-index:1;
+  top:40px;
+  left:0;
+  padding-top:75%;
+  display:inline-block;
+  min-height:initial !important;
+  background-image: url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/ACFEK_main_01.jpg');
+}
+
+.headercaption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-family:'alternate-gothic-no-1-d',arial,sans-serif;
+  color:#FFFFFF;
+  z-index:4;
+  font-size:.8em;
+  letter-spacing:0;
+}
+
+.headercaption span {
+  font-size:5em;
+  font-family:'alternate-gothic-no-1-d',arial,sans-serif;
+  color:#FFFFFF;
+}
+
+.acfek-wide {
+  background-color:#0098d6;
+  padding-top:5%;
+  padding-bottom:5%;
+  height:100%;
+  position:relative;
+  display:block;
+  z-index:5;
+  width:100%;
+  min-height:400px;
+}
+
+.acfek-wide-container {
+  display:block;
+  position:absolute;
+  height:100%;
+}
+
+.acfek-lockup {
+  background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/ACFEK-lockup-white.png');
+  float:left;
+  display:block;
+  width:50%;
+  margin-left:auto;
+  padding-right:0;
+  background-size:80%;
+  background-repeat:no-repeat;
+  height:0;
+  vertical-align:middle;
+  margin-top:auto;
+  margin-bottom:auto;
+  position:static;
+  max-width:100%;
+  background-position: 50% 0%;
+  margin-right:auto;
+  padding-bottom:40%;
+  -webkit-padding-bottom:20px;
+}
+
+.acfek-content {
+  width:50%;
+  padding-left:20px;
+  padding-top:20px;
+  color:#FFFFFF;
+  font-size:1em;
+  line-height:22px;
+  text-align:left;
+  display:block;
+  float:left;
+  margin-right:0;
+  vertical-align:middle;
+  margin-top:auto;
+  margin-bottom:auto;
+  position:relative;
+  left:0;
+  bottom:0%;
+  padding-right:20px;
+}
+
+.acfek-content span {
+	font-weight:700;
+	color:#FFFFFF;
+	font-size:1.3em;
+	line-height:1.3em;
+}
+	
+.pillar {
+  width:100%;
+  display:inline-block;
+  background-color:#ffffff;
+  height:100%;
+  position:relative;
+  z-index:2;
+}
+
+.pillarbg {
+  background-size:contain;
+  background-repeat:no-repeat;
+  display:inline-block;
+  width:100%;
+  position:relative;
+  background-attachment: scroll;
+  background-position: center top;
+  background-position-y:0;
+  background-clip:initial;
+  height:0;
+  z-index:2;
+  margin:0;
+  top:0;
+  left:0;
+  padding-top:56.25%;
+  opacity:1 !important;
+  filter:blur(0px) !important;
+}
+
+.pillarimg {display:none;}
+	
+.pillarheadline {
+  font-family:alternate-gothic-no-1-d,sans-serif;
+  font-size:5em;
+  font-weight:700;
+  width:100%;
+  float:left;
+  text-align:center;
+  max-width:800px;
+  padding:20px 20px 0 20px;
+  color:#0098d6 !important;
+  vertical-align:middle;
+  z-index:3;
+  top:0;
+  position:relative;
+  margin-right:10%;
+  line-height:.8em;
+  opacity:1 !important;
+}
+
+.pillarcontent {
+  font-family:arial,helvetica,sans-serif;
+  font-size:1em;
+  font-weight:300;
+  width:100%;
+  float:left;
+  text-align:left;
+  max-width:initial;
+  padding:0 20px;
+  color:#666666;
+  vertical-align:middle;
+  z-index:4;
+  top:0;
+  position:relative;
+  margin-right:0;
+  opacity:1 !important;
+}
+
+.pillarcontent p {
+  font-family:arial,helvetica,sans-serif !important;
+  font-size:1em !important;
+  line-height:1em;
+  font-weight:300 !important;
+  color:#666666 !important;
+}
+
+.acfek-wide2 {
+  background-color:#0098d6;
+  padding:3%;
+  height:100%;
+  position:relative;
+  display:block;
+  z-index:5;
+  width:100%;
+  min-height:initial;
+}
+
+.acfek-cta {
+  font-family:alternate-gothic-no-1-d,sans-serif;
+  font-size:2.5em;
+  font-weight:500;
+  color:#FFFFFF;
+  text-align:center;
+  width:initial;
+  line-height:1.5em;
+  margin:auto;
+  vertical-align:middle;
+  letter-spacing:0 !important;
+  opacity:1 !important;
+}
+
+.skyline {
+  background-image:url('http://www.boysgirlsclubs.org/wp-content/uploads/2017/06/skyline-2500.png');
+  background-size:cover;
+  width:100%;
+  height:260px;
+  background-repeat:no-repeat;
+  background-position-y:bottom;
+}
+	
+}
+	
+@media screen and (max-width : 599px) {
+	.bgimg-1, .bgimg-2 {
+		width:200%;
+		top:20px;
+		left:-50%;
+		padding-top:150%;
+	}
+	.pillarheadline {font-size: 2.5em;}
+	.acfek-cta {font-size:1.5em;}
+	.headercaption span {font-size: 3em;}
+}
+	
+	@media screen and (max-width : 768px) {
+		.acfek-wide {min-height:660px;}
+		.acfek-content, .acfek-lockup {width:100%;}
+		.acfek-lockup {background-size:70%;}
+	}
